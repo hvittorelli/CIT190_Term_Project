@@ -1,0 +1,68 @@
+body {
+    margin: 0; 
+    min-height: 100vh;
+    background-image: url("../media/dashbackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+h1 {
+    padding: 10px;
+    background-color: #5D5D5D;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+section {
+    background-color: #5D5D5D;
+    max-width: 80%;
+    color: black;
+    opacity: .8;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center; 
+}
+
+button {
+    background-color: #5D5D5D;
+    border: solid black;
+    color: #CDCDCD;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: "Rubik Gemstones", system-ui;
+}
+
+button:hover{
+    background-color: #CDCDCD;
+    color: #5D5D5D;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+canvas {
+    display: inline;
+    border: 10px solid gray;
+}
+a {
+    color: #C2B3AC;
+    padding: 14px 16px;
+}
+footer{
+    text-align: center;
+    margin-top: 2%;
+    color:white;
+}

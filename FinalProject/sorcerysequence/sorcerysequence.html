@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/sorcerysequence.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+<title>CIT190 Sorcery Sequence</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Sorcery Sequence</h1>
+    <div class="container">
+        <section>
+            <h3>Similar to the classic game 'Simon Says', this version will challenge your magical memory and puts your reflexes to the test as you strive to match colors in sequence.</h3>
+            <p>Colored buttons will light up in a specific sequence. Pay close attention to the order in which they light up, then click the buttons in the same order to match the sequence.</p>
+            <a id="home" href="../gamesindex.html">Back to Home</a>
+            <span><a id="readme.txt" href="readme.txt" target="_blank">Read Me</a></span>
+        </section>
+    </div>
+    <div class="game-panel"> 
+        <h2 id="game-title">Press the Start Key</h2>
+        <span><button id="start-btn">Start</button></span><br>
+        <span id="high-score">Highest Level: 0</span>
+        <div class="button-row">
+            <button class="btn red-piece" id="red"></button>
+            <button class="btn green-piece" id="green"></button>
+        </div>
+        <div class="button-row">
+            <button class="btn yellow-piece" id="yellow"></button>
+            <button class="btn blue-piece" id="blue"></button>
+        </div>
+    </div>
+    <audio id="red-sound" src="media/red.mp3"></audio>
+    <audio id="green-sound" src="media/green.mp3"></audio>
+    <audio id="yellow-sound" src="media/yellow.mp3"></audio>
+    <audio id="blue-sound" src="media/blue.mp3"></audio>
+    <footer>&copy; Hope Vittorelli 2024 CIT 190</footer>
+<script src="js/sorcerysequence.js"></script>
+</body>
+</html>
